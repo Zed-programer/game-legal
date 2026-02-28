@@ -1,0 +1,49 @@
+* {
+    margin: 20px;
+    padding: 0;
+    background-color:rgb(10, 10, 10);
+    font-size: 20px;
+
+}
+Body {
+    font-family: "Cascadia Mono", monospace;
+    color: cornflowerblue;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+Button {
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#resposta {
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    min-width: 300px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#palpite {
+    background-color: rgb(10, 10, 10);
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: cornflowerblue;
+    font-family: "Cascadia Mono", monospace;
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    margin: 10px 0;
+}
+#boneco {
+    width: 200px;
+    border-radius: 10px;
+}
